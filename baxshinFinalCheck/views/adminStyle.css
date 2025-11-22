@@ -1,0 +1,111 @@
+ @font-face {
+                  font-family: Araboto;
+                  src: url(/baxshin/views/fonts/UniSIRWAN-Araboto-Regular.ttf);
+                }
+
+                .adminButton{
+                    background-color: #02818a;
+                    color: #f6eff7;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 12px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    display: block;
+                    margin: 15px auto 5px auto;
+                    font-family: Araboto;
+                    font-size: 14px;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                    width: 120px;
+                    text-decoration: none;
+                }
+                .adminButton:hover{
+                    background-color: #016b73;
+                    transform: scale(1.05);
+                }
+                .adminBody{        
+              text-align: center;
+              background:#f6eff7;
+                }
+                .adminContainer{
+                display: flex;
+              flex-direction: row-reverse;
+              justify-content: center;
+              gap: 30px;
+              flex-wrap: wrap;
+                }
+                body {
+          background-color: #f6eff7;
+          font-family: Araboto;
+          direction: rtl;
+        }
+
+        form {
+          margin: 0 auto;
+          background: #f6eff7;
+          padding: 20px;
+        }
+
+        .form-group {
+          margin-bottom: 18px;
+        }
+
+        label {
+          display: block;
+          font-size: 15px;
+          color: #006f7d;
+          margin-bottom: 6px;
+          text-align: right;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea, select{
+          width: 100%;
+          border: 2px solid #0d7c85;
+          border-radius: 8px;
+          padding: 10px;
+          background: #ffffff;
+          font-size: 14px;
+          outline: none;
+          box-sizing: border-box;
+        }
+        input:focus,
+        textarea:focus {
+          border-color: #12949f;
+          box-shadow: 0 0 4px rgba(18,148,159,0.4);
+        }
+        textarea {
+          resize: none;
+        }
+        input[type="image"] {
+          height: 45px;
+          object-fit: cover;
+          border-radius: 8px;
+          padding: 6px;
+          cursor: pointer;
+          border: 2px solid #0d7c85;
+          background: #ffffff;
+        }
+
+        .submitAboutUsForm {
+  background-color: #02818a;
+  color: #f6eff7;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Araboto", sans-serif;
+  display: block;
+  width: 120px;
+  margin: 20px auto 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.submitAboutUsForm:hover {
+  background-color: #016b73;
+  transform: scale(1.05);
+}
